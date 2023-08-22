@@ -1,9 +1,9 @@
 public class No17 {
   static void shuffle(int[] original){
-    int temp = 0;
+    // int temp = 0;
     for(int i = 0; i < original.length; i++){
       int random = (int)Math.floor(Math.random() * 9 +1);
-      original[i] = original[random]
+      original[i] = original[random];
     }
   }
   
