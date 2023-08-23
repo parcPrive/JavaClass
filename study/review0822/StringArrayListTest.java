@@ -2,7 +2,7 @@ package review0822;
 
 import java.util.ArrayList;
 
-public class ArrayListTest {
+public class StringArrayListTest {
   public static void main(String[] args) {
     ArrayList<String> arrayList = new ArrayList<>(); // java에서는 배열 같은거를 새로만들떄에는 new 뒤에에는 타입을 한번더 사용한다.!!!
     arrayList.add("홍");
