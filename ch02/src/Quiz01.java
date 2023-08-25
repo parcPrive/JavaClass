@@ -16,6 +16,7 @@ public class Quiz01 {
       count++;
       System.out.println("합은? => "+sum);
     }
+    
     System.out.println(sum/count);
   }
 

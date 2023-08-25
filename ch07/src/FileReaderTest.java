@@ -7,9 +7,9 @@ public class FileReaderTest {
       fileReader = new FileReader("C: \\window\\system.ini");
       int c;
       while ((c  = fileReader.read()) != -1){
-        System.out.println((char) c= c);
+        System.out.println((char) c);
       }
-    }chatch(Exception e){
+    }catch(Exception e){
       e.printStackTrace();
     }
 

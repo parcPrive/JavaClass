@@ -56,7 +56,7 @@ public class Quiz01 {
         System.out.print("이름 전화번호 =====>");
         String line = scanner.nextLine();
         if(line.equals("그만")) break;
-        fileWriter.write(line + "\r\n");
+        fileWriter.write(line + "\r\n"); //캐리지 리턴
       }
       fileWriter.close();
       
