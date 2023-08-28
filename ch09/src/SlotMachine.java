@@ -1,12 +1,13 @@
 import java.awt.Color;
 import java.awt.Container;
-import java.awt.FlowLayout;
+
+import java.awt.Font;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-import java.util.Scanner;
+
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -27,6 +28,7 @@ SlotMachine(){
       label.setOpaque(true);
       label.setBackground(Color.RED);
       label.setForeground(Color.YELLOW);
+      label.setFont(new Font("맑은 고딕", Font.BOLD, 24));
       label.setSize(80,80);
       label.setLocation(90 * i + 10, 100 );
       label.setText("0");
