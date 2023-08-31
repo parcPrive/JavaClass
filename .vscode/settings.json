@@ -1,0 +1,10 @@
+{
+  "java.project.sourcePaths": [
+    "study/mini/src",
+    "ch13/src",
+    "ch12/src",
+    "ch11/src",
+    "ch09/src",
+    "spring/demo/src/main/java/com/example/demo"
+  ]
+}
